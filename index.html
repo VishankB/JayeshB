@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Anjaneya Stock Learning — Learn the stock market from basics to advanced in Hindi and English.">
+<title>Anjaneya Stock Learning | Learn. Analyse. Grow.</title>
+<style>
+:root{--navy:#081426;--navy2:#102544;--gold:#e9b95b;--cream:#f6f3ec;--ink:#142238;--muted:#aebbd0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--cream);color:var(--ink)}
+a{text-decoration:none;color:inherit}.top{background:#050d19;color:#dce5f2;padding:10px 7%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;letter-spacing:.4px}
+header{background:var(--navy);color:white;padding:20px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:5;border-bottom:1px solid #243955}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.5px}.logo{width:42px;height:42px;border:1px solid var(--gold);border-radius:13px;display:grid;place-items:center;color:var(--gold);font-size:22px;font-weight:900}.brand small{display:block;color:var(--gold);font-size:10px;letter-spacing:2px;margin-top:3px}
+nav{display:flex;gap:25px;font-size:13px;color:#d3ddec}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#111d2c;padding:13px 20px;border-radius:7px;font-weight:800;font-size:13px;letter-spacing:.2px}.btn.outline{background:transparent;color:white;border:1px solid #65758b}
+.hero{background:radial-gradient(circle at 80% 20%,#1d3d62 0,#102544 34%,#081426 72%);color:white;padding:90px 7% 85px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:440px;height:440px;border:1px solid #ffffff12;border-radius:50%;right:5%;top:10%;box-shadow:0 0 0 45px #ffffff08,0 0 0 90px #ffffff05}
+.hero-inner{max-width:1150px;margin:auto;position:relative;z-index:1}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:3px;font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,76px);line-height:1.04;max-width:760px;margin:22px 0}.gold{color:var(--gold)}.hero p{color:#c2cede;max-width:580px;line-height:1.8;font-size:16px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.hero-note{margin-top:55px;display:flex;gap:35px;flex-wrap:wrap;color:#b7c4d5;font-size:12px}.hero-note strong{display:block;color:white;font-size:22px;margin-bottom:5px}
+section{padding:76px 7%}.wrap{max-width:1150px;margin:auto}.section-head{max-width:650px;margin-bottom:35px}.section-head h2{font-size:clamp(30px,4vw,44px);margin:12px 0;color:var(--navy)}.section-head p{color:#68768a;line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:white;padding:27px;border:1px solid #e7e3da;border-radius:13px;min-height:190px;box-shadow:0 8px 24px #14223808}.num{color:#b17d22;font-size:12px;font-weight:900;letter-spacing:2px}.card h3{margin:17px 0 9px;font-size:19px}.card p{color:#69778a;line-height:1.65;font-size:14px;margin:0}
+.dark{background:var(--navy);color:white}.dark .section-head h2{color:white}.dark .section-head p{color:#afbdd0}.path{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:2px solid var(--gold);padding:20px 17px;background:#ffffff09;border-radius:0 0 10px 10px}.step b{color:var(--gold);font-size:12px;letter-spacing:1px}.step h3{margin:14px 0 8px}.step p{font-size:13px;line-height:1.6;color:#b6c3d4}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.quote{background:#fff;border-radius:16px;padding:35px;border:1px solid #e7e3da}.quote .mark{font-size:48px;color:var(--gold);line-height:1}.quote p{font-size:21px;line-height:1.5;font-weight:700;color:var(--navy)}.quote small{color:#6b788a}
+.contact{background:linear-gradient(135deg,#102544,#081426);color:white;border-radius:18px;padding:40px;display:flex;justify-content:space-between;align-items:center;gap:25px;flex-wrap:wrap}.contact h2{font-size:34px;margin:0 0 10px}.contact p{color:#bdc9d8;margin:0;line-height:1.7}.contact a.phone{color:var(--gold);font-size:23px;font-weight:800;display:block;margin:8px 0}
+footer{background:#050d19;color:#aebbd0;padding:28px 7%;font-size:12px;line-height:1.7}.foot{max-width:1150px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.disclaimer{max-width:1150px;margin:18px auto 0;color:#8190a4;font-size:11px}
+@media(max-width:800px){nav{display:none}.cards{grid-template-columns:1fr 1fr}.path{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.hero{padding:68px 7%}}
+@media(max-width:520px){.cards,.path{grid-template-columns:1fr}.hero-note{gap:20px}.contact{padding:28px}.top{font-size:10px}}
+</style>
+</head>
+<body>
+<div class="top"><span>ANJANEYA GROUP • FINANCIAL EDUCATION</span><span>📞 +91 73397 31781 &nbsp; | &nbsp; Jayesh Beel</span></div>
+<header>
+  <a class="brand" href="#home"><span class="logo">A</span><span>ANJANEYA<small>STOCK LEARNING</small></span></a>
+  <nav><a href="#about">About</a><a href="#learn">What You'll Learn</a><a href="#journey">Learning Path</a><a href="#contact">Contact</a></nav>
+  <a class="btn" href="#learn">Start Learning</a>
+</header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+  <div class="eyebrow">Think smart • Learn markets • Build discipline</div>
+  <h1>Market knowledge.<br><span class="gold">Stronger decisions.</span></h1>
+  <p>Welcome to Anjaneya Stock Learning — a learning platform to understand the stock market, from your first market concept to advanced analysis. Learn in Hindi or English, at your own pace.</p>
+  <div class="actions"><a class="btn" href="#journey">Explore Learning Path&nbsp; →</a><a class="btn outline" href="#contact">Contact Our Team</a></div>
+  <div class="hero-note"><div><strong>2 Languages</strong>Hindi + English</div><div><strong>Beginner to Advanced</strong>Structured learning</div><div><strong>Learn with Discipline</strong>Knowledge before action</div></div>
+</div></section>
+<section id="learn"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">What you'll learn</div><h2>Build your market skills, <span class="gold">step by step.</span></h2><p>Clear concepts, practical frameworks and risk awareness — designed to make market learning easier to follow.</p></div>
+  <div class="cards">
+    <article class="card"><div class="num">01 / FOUNDATION</div><h3>Stock Market Basics</h3><p>Shares, indices, exchanges, IPOs, demat accounts and how the market works.</p></article>
+    <article class="card"><div class="num">02 / ANALYSIS</div><h3>Technical Analysis</h3><p>Charts, candlesticks, trends, support-resistance, volume and indicators.</p></article>
+    <article class="card"><div class="num">03 / FUNDAMENTALS</div><h3>Company Analysis</h3><p>Understand financial statements, business models, ratios and company quality.</p></article>
+    <article class="card"><div class="num">04 / TRADING</div><h3>Trading Strategies</h3><p>Learn the concepts behind intraday, swing trading, VWAP, EMA and trade planning.</p></article>
+    <article class="card"><div class="num">05 / RISK</div><h3>Risk Management</h3><p>Position sizing, stop-loss, risk-reward, capital protection and trading psychology.</p></article>
+    <article class="card"><div class="num">06 / ADVANCED</div><h3>Advanced Market Concepts</h3><p>Derivatives, futures, options, open interest and market structure fundamentals.</p></article>
+  </div>
+</div></section>
+<section class="dark" id="journey"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Your learning journey</div><h2>From curious beginner to <span class="gold">confident learner.</span></h2><p>Follow a logical path. Understand the basics first, practise with examples, and never ignore risk.</p></div>
+  <div class="path">
+    <div class="step"><b>LEVEL 01</b><h3>Beginner</h3><p>Market language, investing basics, orders and exchanges.</p></div>
+    <div class="step"><b>LEVEL 02</b><h3>Intermediate</h3><p>Chart reading, indicators, fundamentals and analysis methods.</p></div>
+    <div class="step"><b>LEVEL 03</b><h3>Advanced</h3><p>Derivatives, strategy design, backtesting concepts and discipline.</p></div>
+    <div class="step"><b>LEVEL 04</b><h3>Practice</h3><p>Paper trading, journaling, reviewing decisions and managing risk.</p></div>
+  </div>
+</div></section>
+<section id="about"><div class="wrap about">
+  <div><div class="eyebrow">About Anjaneya</div><h2 style="font-size:40px;color:#081426;margin:14px 0">Learn first.<br><span class="gold">Trade responsibly.</span></h2><p style="color:#68768a;line-height:1.8">Anjaneya Stock Learning is focused on making financial-market education accessible in Hindi and English. Our goal is to help learners understand market concepts, build a process and respect risk — not chase shortcuts or guaranteed returns.</p><p style="font-weight:700;color:#102544">Founder & CEO: Jayesh Beel</p></div>
+  <div class="quote"><div class="mark">“</div><p>Think different. Learn deeply. Make decisions with knowledge and discipline.</p><small>ANJANEYA STOCK LEARNING</small></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">Let's connect</div><h2>Start your learning journey.</h2><p>For course information, learning enquiries or collaboration,<br>get in touch with Anjaneya Stock Learning.</p><a class="phone" href="tel:+917339731781">+91 73397 31781</a><p>Jayesh Beel • Founder & CEO</p></div><a class="btn" href="https://wa.me/917339731781?text=Hello%20Anjaneya%20Stock%20Learning%2C%20I%20want%20to%20know%20about%20your%20learning%20programs." target="_blank" rel="noopener">Chat on WhatsApp&nbsp; ↗</a></div></div></section>
+</main>
+<footer><div class="foot"><div><strong style="color:white">ANJANEYA STOCK LEARNING</strong><br>Learn • Analyse • Grow</div><div>Founder & CEO: Jayesh Beel<br>Contact: +91 73397 31781</div><div>Hindi & English Financial Education</div></div><div class="disclaimer">Disclaimer: This website is for educational purposes only. Content is not investment advice, a recommendation, or a promise of returns. Stock-market investments and trading involve risk. Please do your own research and consult a SEBI-registered investment adviser where appropriate.</div></footer>
+</body>
+</html>
